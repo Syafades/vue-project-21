@@ -186,7 +186,9 @@ export default {
         <div class="row">
           <div class="col mt-2" v-for="data in DataBarang1">
             <div class="card text-center" style="width: 18.5rem;">
-              <img :src="data.image1" class="img-top " style="width:295px; height: 360px; margin: auto; " alt="...">
+              <div class="foto1">
+                <img :src="data.image1" class="img-top " style="width:295px; height: 360px; margin: auto; " alt="...">
+              </div>
               <div class="card-body">
                 <h5 class="card-title">{{ data.nama1 }}</h5>
                 <p class="card-text">{{ data.harga1 }}<br>
@@ -218,7 +220,9 @@ export default {
         <div class="row">
           <div class="col mt-2 " v-for="data in DataBarang2">
             <div class="card text-center" style="width: 18rem;">
-              <img :src="data.image2" class="img-top " style="width:287px; height: 360px; " alt="...">
+              <div class="foto1">
+                <img :src="data.image2" class="img-top " style="width:287px; height: 360px; " alt="...">
+              </div>
               <div class="card-body">
                 <h5 class="card-title">{{ data.nama2 }}</h5>
                 <p class="card-text">{{ data.harga2 }}<br>
@@ -250,7 +254,9 @@ export default {
         <div class="row">
           <div class="col mt-2 " v-for="data in DataBarang3">
             <div class="card text-center" style="width: 18rem;">
-              <img :src="data.image3" class="img-top " style="width:287px; height: 360px; " alt="...">
+              <div class="foto1">
+                <img :src="data.image3" class="img-top " style="width:287px; height: 360px; " alt="...">
+              </div>
               <div class="card-body">
                 <h5 class="card-title">{{ data.nama3 }}</h5>
                 <p class="card-text">{{ data.harga3 }}<br>
@@ -311,7 +317,8 @@ export default {
                   fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                   <path
                     d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                </svg><a href="#" class="nav-link p-0  " style="color: white;">dperfum@gmail.com</a></li>
+                </svg><a href="mailto:dperfum@gmail.com" class="nav-link p-0  "
+                  style="color: white; ">dperfum@gmail.com</a></li>
               <li class="nav-item mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-telephone" viewBox="0 0 16 16">
