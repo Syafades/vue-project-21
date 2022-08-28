@@ -394,7 +394,7 @@ export default {
           <p>Copyright © 2022 D’Perfum</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
-              JL Patal Senayan No. 25, Kebayoran Lama, 12210
+              JL Patal Senayan No. 25, Kebayoran Lama, 12210 haii
             </li>
           </ul>
         </div>
