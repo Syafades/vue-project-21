@@ -173,26 +173,29 @@ export default {
 
   <div class="top">
     <div class="title mt-5">
-      <h2><b>NEW PRODUCTS</b></h2>
+      <br>
+      <h2>NEW PRODUCTS</h2>
     </div>
     <div class="see">
       <a href="#">
-        <p>See all</p>
+        See all
       </a>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col mt-2" v-for="data in DataBarang1">
-          <div class="card text-center" style="width: 18rem;">
-            <img :src="data.image1" class="card-img-top img-thumbnail" style="width:303px; height: 365px; " alt="...">
-            <div class="card-body">
-              <h5 class="card-title">{{ data.nama1 }}</h5>
-              <p class="card-text">{{ data.harga1 }}<br>
-                <img :src="data.rate1" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
-              </p>
-              <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
-                  ADD TO CART
-                </button></a>
+    <div class="box">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col mt-2" v-for="data in DataBarang1">
+            <div class="card text-center" style="width: 18.5rem;">
+              <img :src="data.image1" class="img-top " style="width:295px; height: 360px; margin: auto; " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{ data.nama1 }}</h5>
+                <p class="card-text">{{ data.harga1 }}<br>
+                  <img :src="data.rate1" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
+                </p>
+                <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
+                    ADD TO CART
+                  </button></a>
+              </div>
             </div>
           </div>
         </div>
@@ -201,28 +204,30 @@ export default {
   </div>
 
   <div class="woman">
-    <div class="title ">
+    <div class="title">
       <br>
       <h2><b>WOMAN</b></h2>
     </div>
     <div class="see">
       <a href="#">
-        <p>See all</p>
+        See all
       </a>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col mt-2 " v-for="data in DataBarang2">
-          <div class="card text-center" style="width: 18rem;">
-            <img :src="data.image2" class="card-img-top img-thumbnail" style="width:303px; height: 365px; " alt="...">
-            <div class="card-body">
-              <h5 class="card-title">{{ data.nama2 }}</h5>
-              <p class="card-text">{{ data.harga2 }}<br>
-                <img :src="data.rate2" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
-              </p>
-              <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
-                  ADD TO CART
-                </button></a>
+    <div class="box">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col mt-2 " v-for="data in DataBarang2">
+            <div class="card text-center" style="width: 18rem;">
+              <img :src="data.image2" class="img-top " style="width:287px; height: 360px; " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{ data.nama2 }}</h5>
+                <p class="card-text">{{ data.harga2 }}<br>
+                  <img :src="data.rate2" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
+                </p>
+                <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
+                    ADD TO CART
+                  </button></a>
+              </div>
             </div>
           </div>
         </div>
@@ -237,22 +242,24 @@ export default {
     </div>
     <div class="see">
       <a href="#">
-        <p>See all</p>
+        See all
       </a>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col mt-2 " v-for="data in DataBarang3">
-          <div class="card text-center" style="width: 18rem;">
-            <img :src="data.image3" class="card-img-top img-thumbnail" style="width:303px; height: 365px; " alt="...">
-            <div class="card-body">
-              <h5 class="card-title">{{ data.nama3 }}</h5>
-              <p class="card-text">{{ data.harga3 }}<br>
-                <img :src="data.rate3" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
-              </p>
-              <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
-                  ADD TO CART
-                </button></a>
+    <div class="box">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col mt-2 " v-for="data in DataBarang3">
+            <div class="card text-center" style="width: 18rem;">
+              <img :src="data.image3" class="img-top " style="width:287px; height: 360px; " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{ data.nama3 }}</h5>
+                <p class="card-text">{{ data.harga3 }}<br>
+                  <img :src="data.rate3" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
+                </p>
+                <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
+                    ADD TO CART
+                  </button></a>
+              </div>
             </div>
           </div>
         </div>
@@ -260,47 +267,52 @@ export default {
     </div>
   </div>
 
-  <div class="title mt-5">
-    <br>
-    <h2><b>Review</b></h2>
-  </div>
-  <div class="see">
-    <a href="#">
-      <p>All Reviews</p>
-    </a>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col mt-2 " v-for="data in Datareview">
-        <div class="card text-center" style="width: 18rem;">
-          <img :src="data.image" class="card-img-top img-thumbnail" style="width:303px; height: 365px; " alt="...">
-          <div class="card-body">
-            <h5 class="card-title">{{ data.nama }}</h5>
-            <p class="card-text"> <img :src="data.rate" class="card-img-top" style="width: 80px; height: 15px;"
-                alt=" ..."><br>
-              {{ data.review }}
-            </p>
-            <p class="card-text">{{ data.customer }}</p>
-            <p class="card-text">{{ data.tanggal }}</p>
+  <div class="review">
+    <div class="title mt-2">
+      <br>
+      <h2><b>Review</b></h2>
+    </div>
+    <div class="see">
+      <a href="#">All Reviews
+      </a>
+    </div>
+    <div class="box">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col mt-2 " v-for="data in Datareview">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="foto1">
+                <img :src="data.image" class="img-top " style="width:287px; height: 360px; " alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">{{ data.nama }}</h5>
+                <p class="card-text"> <img :src="data.rate" class="card-img-top" style="width: 80px; height: 15px;"
+                    alt=" ..."><br>
+                  {{ data.review }}
+                </p>
+                <p class="card-text">{{ data.customer }}</p>
+                <p class="card-text" style="color: #7e7e7e;">{{ data.tanggal }}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-
   <div class="bawah">
     <div class="container mt-2">
-      <footer class="py-5">
+      <footer class="py-3">
         <div class="row">
-          <div class="col-6 col-md-2 mb-3 ">
+          <div class="col-5 col-md-4 mb-3 ">
             <h5>CONTACT US</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                  fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                  <path
-                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                </svg><a href="#" class="nav-link p-0  " style="color: white;">dperfum@gmail.com</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  " style="color: white;"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                  </svg>dperfum@gmail.com</a></li>
               <li class="nav-item mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-telephone" viewBox="0 0 16 16">
@@ -341,7 +353,7 @@ export default {
             </ul>
           </div>
 
-          <div class="col-md-5 offset-md-1 mb-3">
+          <div class="col-md-3 offset-md-1 mb-3">
             <form>
               <h5>NEWSLETTER</h5>
               <div class="d-flex flex-column  w-100 ">
@@ -378,11 +390,11 @@ export default {
           </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-3 my-3 border-top">
+        <div class="d-flex flex-column flex-sm-row justify-content-between  border-top">
           <p>Copyright © 2022 D’Perfum</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
-              <p>JL Patal Senayan No. 25, Kebayoran Lama, 12210</p>
+              JL Patal Senayan No. 25, Kebayoran Lama, 12210
             </li>
           </ul>
         </div>
@@ -413,13 +425,14 @@ header {
 }
 
 .title {
-  text-decoration: underline;
+  text-decoration-line: underline;
   text-align: center;
   font-family: 'Cinzel', serif;
 }
 
 .see {
   text-align: end;
+  margin-right: 40px;
 }
 
 .star {
@@ -428,7 +441,7 @@ header {
 }
 
 .top {
-  background-color: #FFFFFF;
+  background-color: #ededed;
   font-family: 'Fauna One', serif;
 
 }
@@ -443,6 +456,15 @@ header {
   font-family: 'Fauna One', serif;
 }
 
+.review {
+  font-family: 'Fauna One', serif;
+}
+
+.foto1 {
+  box-shadow: 4px 4px 26px grey;
+}
+
+
 .bawah {
   background-color: #5C5C5C;
   color: white;
@@ -454,6 +476,10 @@ header {
 
 .row {
   font-weight: bold;
+}
+
+.box {
+  margin-left: 20px;
 }
 
 .title-name {
