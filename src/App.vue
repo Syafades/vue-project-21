@@ -23,14 +23,15 @@ export default {
 <template>
   <nav>
     <div class="atas">
-      <div class="navbar justify-content-center ">
-        <ul class="nav justify-content-center">
+      <div class="navbar  ">
+        <ul class="nav ">
           <li class="nav-item">
-            <a class="nav-link active link-dark" aria-current="page" href="#" style="margin-top:5px;">New Products</a>
+            <a class="nav-link active link-dark" aria-current="page" href="#"
+              style="margin-top:5px;  margin-right: 15px; margin-left: 100px; ">New Products</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark " href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" style="margin-top:5px;">
+              aria-expanded="false" style="margin-top:5px;  margin-right: 15px; margin-left: 15px;">
               Woman
             </a>
             <ul class="dropdown-menu">
@@ -56,7 +57,7 @@ export default {
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" style="margin-top:5px;">
+              aria-expanded="false" style="margin-top:5px;  margin-right: 15px;  margin-left: 15px;">
               Man
             </a>
             <ul class="dropdown-menu">
@@ -81,30 +82,34 @@ export default {
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-dark" href="#" style="margin:auto;">
-              <h3>D’Perfum</h3>
+            <a class="nav-link link-dark" href="#"
+              style="margin:auto;  margin-right: 15px;  margin-left: 15px; font-family: 'Cinzel',serif;">
+              <h2>D’Perfum</h2>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-dark" href="#" style="margin-top:5px;">Contact Us</a>
+            <a class="nav-link link-dark" href="#"
+              style="margin-top:5px;  margin-right: 15px;  margin-left: 15px;">Contact Us</a>
           </li>
           <li>
             <form action="search.html" method="post" class="d-flex"
-              style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+              style="margin-top: 10px;  margin-right: 15px;  margin-left: 15px;">
               <input type="search" name="Search" placeholder="Search">
               <div class="clearfix"></div>
             </form>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-dark" href="#" style="margin-top:5px;"><svg xmlns="http://www.w3.org/2000/svg"
-                width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+            <a class="nav-link link-dark" href="#" style="margin-top:5px;  margin-right: 15px;  margin-left: 15px;"><svg
+                xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag"
+                viewBox="0 0 16 16">
                 <path
                   d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
               </svg></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-dark" href="#" style="margin-top:5px;"><svg xmlns="http://www.w3.org/2000/svg"
-                width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <a class="nav-link link-dark" href="#" style="margin-top:5px;   margin-left: 15px; "><svg
+                xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person"
+                viewBox="0 0 16 16">
                 <path
                   d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
               </svg></a>
@@ -132,7 +137,8 @@ export default {
             <div class="read">
               <div class="col-lg-6">
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <a href="#"><button type="button" class="btn btn-primary btn-lg px-4">READ MORE</button></a>
+                  <a href="#"><button type="button" class="btn btn-primary btn-lg px-4" style="margin-left: 110px;">READ
+                      MORE</button></a>
                 </div>
               </div>
             </div>
@@ -144,25 +150,27 @@ export default {
             <div class="read">
               <div class="col-lg-6">
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <a href="#"><button type="button" class="btn btn-primary btn-lg px-4">READ MORE</button></a>
+                  <a href="#"><button type="button" class="btn btn-primary btn-lg px-4" style="margin-left: 110px;">READ
+                      MORE</button></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class=" carousel-item">
           <img :src="titleImage3" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <div class="read">
               <div class="col-lg-6">
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <a href="#"><button type="button" class="btn btn-primary btn-lg px-4">READ MORE</button></a>
+                  <a href="#"><button type="button" class="btn btn-primary btn-lg px-4" style="margin-left: 110px;">READ
+                      MORE</button></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -190,14 +198,15 @@ export default {
     <div class="box">
       <div class="container-fluid">
         <div class="row">
-          <div class="col mt-2" v-for="data in DataBarang1">
+          <div class="col mt-2 mb-4" v-for="data in DataBarang1">
             <div class="card text-center" style="width: 18.5rem;">
               <div class="foto1">
                 <img :src="data.image1" class="img-top " style="width:295px; height: 360px; margin: auto; " alt="...">
               </div>
               <div class="card-body">
                 <h5 class="card-title">{{ data.nama1 }}</h5>
-                <p class="card-text" style="font-weight: bolder;  font-family: 'Cinzel', serif;">{{ data.harga1 }}<br>
+                <p class="card-text" style="font-weight: bolder;  font-family: 'Cinzel', serif;">
+                  {{ data.harga1 }}<br>
                   <img :src="data.rate1" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
                 </p>
                 <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
@@ -224,14 +233,15 @@ export default {
     <div class="box">
       <div class="container-fluid">
         <div class="row">
-          <div class="col mt-2 " v-for="data in DataBarang2">
+          <div class="col mt-2 mb-4 " v-for="data in DataBarang2">
             <div class="card text-center" style="width: 18rem;">
               <div class="foto1">
                 <img :src="data.image2" class="img-top " style="width:287px; height: 360px; " alt="...">
               </div>
               <div class="card-body">
                 <h5 class="card-title">{{ data.nama2 }}</h5>
-                <p class="card-text" style="font-weight: bolder ;  font-family: 'Cinzel', serif;">{{ data.harga2 }}<br>
+                <p class="card-text" style="font-weight: bolder ;  font-family: 'Cinzel', serif;">
+                  {{ data.harga2 }}<br>
                   <img :src="data.rate2" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
                 </p>
                 <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
@@ -258,14 +268,15 @@ export default {
     <div class="box">
       <div class="container-fluid">
         <div class="row">
-          <div class="col mt-2 " v-for="data in DataBarang3">
+          <div class="col mt-2 mb-4 " v-for="data in DataBarang3">
             <div class="card text-center" style="width: 18rem;">
               <div class="foto1">
                 <img :src="data.image3" class="img-top " style="width:287px; height: 360px; " alt="...">
               </div>
               <div class="card-body">
                 <h5 class="card-title">{{ data.nama3 }}</h5>
-                <p class="card-text" style="font-weight: bolder ; font-family: 'Cinzel', serif;">{{ data.harga3 }}<br>
+                <p class="card-text" style="font-weight: bolder ; font-family: 'Cinzel', serif;">
+                  {{ data.harga3 }}<br>
                   <img :src="data.rate3" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
                 </p>
                 <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
@@ -282,7 +293,7 @@ export default {
   <div class="review">
     <div class="title mt-2">
       <br>
-      <h1><b>Review</b></h1>
+      <font size="7"><b>Review</b></font>
     </div>
     <div class="see">
       <a href="#">All Reviews
@@ -291,13 +302,14 @@ export default {
     <div class="box">
       <div class="container-fluid">
         <div class="row">
-          <div class="col mt-2 " v-for="data in Datareview">
+          <div class="col mt-2 mb-4 " v-for="data in Datareview">
             <div class="card text-center" style="width: 18rem;">
               <div class="foto1">
                 <img :src="data.image" class="img-top " style="width:287px; height: 360px; " alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title" style="font-weight: bolder ;  font-family: 'Cinzel', serif;">{{ data.nama }}</h5>
+                <h5 class="card-title" style="font-weight: bolder ;  font-family: 'Cinzel', serif;">{{ data.nama }}
+                </h5>
                 <p class="card-text"> <img :src="data.rate" class="card-img-top" style="width: 80px; height: 15px;"
                     alt=" ..."><br>
                   {{ data.review }}
@@ -330,14 +342,16 @@ export default {
                   class="bi bi-telephone" viewBox="0 0 16 16">
                   <path
                     d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                </svg><a class=" p-2 " style="color: white; font-family: 'Fauna One', serif; ">+62 8116 2347</a>
+                </svg><a class=" p-2 " style="color: white; font-family: 'Fauna One', serif; ">+62
+                  8116 2347</a>
               </li>
               <li class="nav-item mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
                   viewBox="0 0 16 16">
                   <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
                   <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
-                </svg><a class="p-2" style="color: white;  font-family: 'Fauna One', serif;">Monday - Saturday: 10:00 am
+                </svg><a class="p-2" style="color: white;  font-family: 'Fauna One', serif;">Monday - Saturday: 10:00
+                  am
                   to 5pm
                   (WIB)</a>
               </li>
@@ -375,7 +389,7 @@ export default {
             </ul>
           </div>
 
-          <div class="col-md-3 offset-md-1 mb-2">
+          <div class="col-md-4 offset-md-0 mb-2">
             <form>
               <h5 style="font-weight: bolder ;">NEWSLETTER</h5>
               <div class="d-flex flex-column  w-100 ">
@@ -387,7 +401,7 @@ export default {
                 <div class="col-md-5 md-1 mb-3">
                   <h5 style="font-weight: bolder ;">FOLLOW US</h5>
                   <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-dark" href="www.twitter.com"><svg xmlns="http://www.w3.org/2000/svg"
+                    <li class=""><a class="link-dark" href="www.twitter.com"><svg xmlns="http://www.w3.org/2000/svg"
                           width="16" height="16" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
                           <path
                             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
@@ -490,7 +504,7 @@ header {
 }
 
 .foto1 {
-  box-shadow: 4px 4px 26px grey;
+  box-shadow: 4px 4px 25px grey;
 }
 
 

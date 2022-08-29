@@ -9,7 +9,7 @@ const DataBarang3 = [
       "https://s3-alpha-sig.figma.com/img/c92d/224d/ccb19a64addfdab4dfdfe2869188663f?Expires=1662336000&Signature=cVcPrAEHV8KmUc7z-Wir4SrvjnInpcSROKfspSHreu5m-WnPZamtWEQ4pSsudvuaOQlulfceWhmjDRlwpTJun71Q5-um0G5~dABotpjVQ-ST~QJLt5Ut-Nzbb-fQR~VlbguZbxwMPoSuYJoYR9uEG8WrMwCZiHYEz8zB734WdpoTrDW-C5xdX~5d9C6EBnuWgXrsnpsvlpaWtfu5DXSpPssKej3-2mkgMjkqI1Mhmz9Yy~G4uMRInOY5smevfhmxpLQs3zxB898CP73fzuX496Uu7FDNf0ZYzkEIctAlTPnantwfXxdPUESpacTiCtx7dZHK7pHkWOTLpaI-ZuxQzw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
   },
   {
-    nama3: "YVES SAINT LAURENT BLACK OPIUM",
+    nama3: "YVES SAINT LAURENT",
     harga3: "Rp 1.232.491,90",
     image3:
       "https://s3-alpha-sig.figma.com/img/b859/e14b/aa41acce53ef4e62aa37dc8615d34164?Expires=1662336000&Signature=KYRwdSa9LGdeioWC5bPAE~YMm6RPqds0vOhvxMZKVI7AGKFNCRXOgxxyAEfLxR6KqzIi5Qc93OiOmEmio3EUDfwpx3ub51Uwdpc8b0H6VC2Fo14QncfQrhQXs3AV5oJJnFT0s~XIpgpWirI~Jy94pcM7BgquASjRbVWyLOzmR3V6m-BYiqoh0SiRDajUUrCVLBrVYaef1116XgAOijCQsLamkDudSWR5xuIGJOAatBSyD3YzVZ0QPjjR33wORQR3Rm6vYLrh1qkKMs92NjAd3XltBQej45r~xKtErU-jQNxME0i-tBRWK6w8qB28cKCttv-jk25iRTBqvpiRa9LPlQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",

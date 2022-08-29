@@ -10,7 +10,7 @@ const Datareview = [
       tanggal:"18/09/2022",
   },
   {
-    nama: "GIORGIO ARMANI SUN DI GIOIA",
+    nama: "GIORGIO ARMANI",
     image:
       "https://s3-alpha-sig.figma.com/img/e451/bee4/5418f2edb7f43bc92979bd85df1bf127?Expires=1662336000&Signature=dkie~9IU3hNULcmLhb~0pD8YrD649eLwODrLuF8pooKkVEyfrt2zYGjEPRtD7wMwdNsxUwwS1~4kRL8gRvnr6xg8EY4zHuUhj~F7nkZRq6aK42eOIHeI~uLvItO6Gu~iJ0uK08n8VsLE9Rvp6fcqllRSFNPV8VnOdnbaHaMLYqg0c4~dMJTeKvlruq5mn~kokJOV65bCedxLIodqqEkW7LjMhBcpsto7dHhCJd9mYV6TGGpKV6fuNV8qMhbnvjC1R0TeZqtN7qan8gUH9Z49mkhoXQCn4aq~W7-I1BcvhiW4VeqIwo~Av0-lDrppczVZAN-aydeX527NThd02362sw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
       rate:
@@ -35,7 +35,7 @@ const Datareview = [
       "https://s3-alpha-sig.figma.com/img/1d88/39b4/bb79c160b5885de97eff67a3d71e0e0e?Expires=1662336000&Signature=daCSs-sj5X5Br10JqbA55997EI3VMPYZj-6fcDl-4sY4cT96UJye-JzjLSKthqZ~7HBWkD--T43zwFA8pjd4sLZiTvhLN9ZtPj41DlQa7ThgsYFiPViXYezVsFhXwCi-xJsPu9jP8XA~a-SHOiN6B8nbO-IPCCBPGSVx5Ypl~CW9BymXBmnpvB-36FTffYab-uV7SquoXGLYlQFPNaQJDcxvacLahfmQZo8Kr4x~KNTJ82fN7Iyve~1tdy5~2SRmWua3QgrpSfTjTx-BfDVSeHdjtvWs0zuKzg8nwIBfZapax9U~wsG0mgLIDPpFe8a~ruf2uq9PdOHIqW-Y5OYF2A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
       rate:
       "https://s3-alpha-sig.figma.com/img/c92d/224d/ccb19a64addfdab4dfdfe2869188663f?Expires=1662336000&Signature=cVcPrAEHV8KmUc7z-Wir4SrvjnInpcSROKfspSHreu5m-WnPZamtWEQ4pSsudvuaOQlulfceWhmjDRlwpTJun71Q5-um0G5~dABotpjVQ-ST~QJLt5Ut-Nzbb-fQR~VlbguZbxwMPoSuYJoYR9uEG8WrMwCZiHYEz8zB734WdpoTrDW-C5xdX~5d9C6EBnuWgXrsnpsvlpaWtfu5DXSpPssKej3-2mkgMjkqI1Mhmz9Yy~G4uMRInOY5smevfhmxpLQs3zxB898CP73fzuX496Uu7FDNf0ZYzkEIctAlTPnantwfXxdPUESpacTiCtx7dZHK7pHkWOTLpaI-ZuxQzw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-      review:"“Gak sengaja nemu parfum ni pas lagi scrolling. Aromanya calm tapi menggoda. Gak sabar buat dipamerin ke tetangga” ",
+      review:"“Gak sengaja nemu parfum ni pas lagi scrolling. Aromanya calm tapi menggoda. ” ",
       customer:"Am****",
       tanggal:"10/05/2022",
   },
