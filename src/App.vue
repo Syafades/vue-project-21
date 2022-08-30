@@ -21,6 +21,8 @@ export default {
 </script>
 
 <template>
+
+  <!-- navbar -->
   <nav>
     <div class="atas">
       <div class="navbar  ">
@@ -118,8 +120,10 @@ export default {
       </div>
     </div>
   </nav>
+  <!-- navbar -->
 
 
+  <!-- Slide Hero -->
   <div class="slide">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
@@ -183,8 +187,10 @@ export default {
       </div>
     </div>
   </div>
+  <!-- Slide Hero -->
 
 
+  <!-- Content 1 -->
   <div class="top">
     <div class="title mt-5">
       <br>
@@ -204,9 +210,9 @@ export default {
                 <img :src="data.image1" class="img-top " style="width:295px; height: 360px; margin: auto; " alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title">{{ data.nama1 }}</h5>
+                <h5 class="card-title">{{  data.nama1  }}</h5>
                 <p class="card-text" style="font-weight: bolder;  font-family: 'Cinzel', serif;">
-                  {{ data.harga1 }}<br>
+                  {{  data.harga1  }}<br>
                   <img :src="data.rate1" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
                 </p>
                 <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
@@ -219,7 +225,10 @@ export default {
       </div>
     </div>
   </div>
+  <!-- Content 1 -->
 
+
+  <!-- Content 2 -->
   <div class="woman">
     <div class="title">
       <br>
@@ -239,9 +248,9 @@ export default {
                 <img :src="data.image2" class="img-top " style="width:287px; height: 360px; " alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title">{{ data.nama2 }}</h5>
+                <h5 class="card-title">{{  data.nama2  }}</h5>
                 <p class="card-text" style="font-weight: bolder ;  font-family: 'Cinzel', serif;">
-                  {{ data.harga2 }}<br>
+                  {{  data.harga2  }}<br>
                   <img :src="data.rate2" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
                 </p>
                 <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
@@ -254,7 +263,10 @@ export default {
       </div>
     </div>
   </div>
+  <!-- Content 2 -->
 
+
+  <!-- Content 3 -->
   <div class="man">
     <div class="title">
       <br>
@@ -274,9 +286,9 @@ export default {
                 <img :src="data.image3" class="img-top " style="width:287px; height: 360px; " alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title">{{ data.nama3 }}</h5>
+                <h5 class="card-title">{{  data.nama3  }}</h5>
                 <p class="card-text" style="font-weight: bolder ; font-family: 'Cinzel', serif;">
-                  {{ data.harga3 }}<br>
+                  {{  data.harga3  }}<br>
                   <img :src="data.rate3" class="card-img-top" style="width: 80px; height: 15px;" alt="...">
                 </p>
                 <a href="cart.html"><button @click="changeTitle(data)" class="btn btn-primary">
@@ -289,7 +301,10 @@ export default {
       </div>
     </div>
   </div>
+  <!-- Content 3 -->
 
+
+  <!-- Content  -->
   <div class="review">
     <div class="title mt-2">
       <br>
@@ -308,14 +323,14 @@ export default {
                 <img :src="data.image" class="img-top " style="width:287px; height: 360px; " alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title" style="font-weight: bolder ;  font-family: 'Cinzel', serif;">{{ data.nama }}
+                <h5 class="card-title" style="font-weight: bolder ;  font-family: 'Cinzel', serif;">{{  data.nama  }}
                 </h5>
                 <p class="card-text"> <img :src="data.rate" class="card-img-top" style="width: 80px; height: 15px;"
                     alt=" ..."><br>
-                  {{ data.review }}
+                  {{  data.review  }}
                 </p>
-                <p class="card-text">{{ data.customer }}</p>
-                <p class="card-text" style="color: #7e7e7e;">{{ data.tanggal }}</p>
+                <p class="card-text">{{  data.customer  }}</p>
+                <p class="card-text" style="color: #7e7e7e;">{{  data.tanggal  }}</p>
               </div>
             </div>
           </div>
@@ -323,7 +338,9 @@ export default {
       </div>
     </div>
   </div>
+  <!-- Content 4 -->
 
+  <!-- Footer -->
   <div class="bawah">
     <div class="container mt-2">
       <footer class="py-3">
@@ -441,6 +458,8 @@ export default {
       </footer>
     </div>
   </div>
+  <!-- Footer -->
+
 </template>
 
 <style scoped>
